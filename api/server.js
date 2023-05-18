@@ -6,23 +6,9 @@ const middlewares = jsonServer.defaults()
 
 const app = jsonServer.create();
 
-const users = `{  "users": [
-    {
-      "email": "anita.borg@systers.xyz",
-      "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
-      "role": "admin",
-      "id": 1
-    },
-    {
-      "email": "grace.hopper@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
-      "role": "admin",
-      "id": 2
-    }
-  ]
-}`;
+const data = fs.readFileSync('db.json');
+fs.writeFileSync('/tmp/db.json', data);
 
-fs.writeFileSync('/tmp/db.json', users);
 const router = jsonServer.router('/tmp/db.json');
 
 const port = process.env.PORT || 8080;
