@@ -6,7 +6,7 @@ const middlewares = jsonServer.defaults()
 
 const app = jsonServer.create();
 
-const data = fs.readFileSync('db.json');
+const data = fs.readFileSync('../db.json');
 fs.writeFileSync('/tmp/db.json', data);
 
 const router = jsonServer.router('/tmp/db.json');
