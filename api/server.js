@@ -10,7 +10,7 @@ const router = jsonServer.router('/tmp/db.json');
 
 const port = process.env.PORT || 8080;
 
-const rules = auth.rewriter(JSON.parse(fs.readFileSync('/tmp/routes.json')));
+const rules = auth.rewriter(JSON.parse(fs.readFileSync(path.join(__dirname, '../routes.json'))));
 
 // /!\ Bind the router db to the app
 app.db = router.db
