@@ -1,119 +1,108 @@
 {
-  "orders": [
-    {
-      "id": 1,
-      "userId": 1,
-      "client": "Jude Milhon",
-      "products": [
-        {
-          "qty": 1,
-          "product": {
-            "id": 1,
-            "name": "Sandwich de jamón y queso",
-            "price": 1000,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/sandwich.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
-    },
-    {
-      "id": 2,
-      "userId": 2,
-      "client": "Katie Bouman",
-      "products": [
-        {
-          "qty": 2,
-          "product": {
-            "id": 2,
-            "name": "Café americano",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/coffe.jpg",
-            "type": "Desayuno",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        },
-        {
-          "qty": 1,
-          "product": {
-            "id": 3,
-            "name": "Agua 500ml",
-            "price": 500,
-            "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-            "type": "Almuerzo",
-            "dateEntry": "2022-03-05 15:14:10"
-          }
-        }
-      ],
-      "status": "delivered",
-      "dataEntry": "2022-03-05 15:00",
-      "dateProcessed": "2022-03-05 16:00"
-    }
-  ],
+  "orders": [],
   "products": [
     {
-      "id": 1,
-      "name": "Sandwich de jamón y queso",
-      "price": 1000,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "name": "Café Americano",
+      "price": 5,
+      "type": "café da manhã",
+      "category": "bebidas",
+      "id": 1
     },
     {
-      "id": 2,
-      "name": "Café americano",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
-      "type": "Desayuno",
-      "dateEntry": "2022-03-05 15:14:10"
+      "name": "Café com Leite",
+      "price": 7,
+      "type": "café da manhã",
+      "category": "bebidas",
+      "id": 2
     },
     {
-      "id": 3,
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/water.png",
-      "type": "Almuerzo",
-      "dateEntry": "2022-03-05 15:14:10"
+      "name": "Suco de Fruta Natural",
+      "price": 7,
+      "type": "café da manhã",
+      "category": "bebidas",
+      "id": 3
     },
     {
-      "name": "Agua 500ml",
-      "price": 500,
-      "image": "https://github.com/Laboratoria/bootcamp/tree/main/projects/04-burger-queen-api/resources/images/water.jpg",
-      "type": "Almuerzo",
+      "name": "Sanduíche de presunto e queijo",
+      "price": 10,
+      "type": "café da manhã",
+      "category": "lanches",
       "id": 4
+    },
+    {
+      "name": "Hambúrguer Simples",
+      "price": 10,
+      "type": "menu principal",
+      "category": "hambúrgueres",
+      "id": 5
+    },
+    {
+      "name": "Hambúrguer Duplo",
+      "price": 15,
+      "type": "menu principal",
+      "category": "hambúrgueres",
+      "id": 6
+    },
+    {
+      "name": "Batata Frita",
+      "price": 5,
+      "type": "menu principal",
+      "category": "acompanhamentos",
+      "id": 7
+    },
+    {
+      "name": "Anéis de Cebola",
+      "price": 5,
+      "type": "menu principal",
+      "category": "acompanhamentos",
+      "id": 8
+    },
+    {
+      "name": "Água 500ml",
+      "price": 5,
+      "type": "menu principal",
+      "category": "bebidas",
+      "id": 9
+    },
+    {
+      "name": "Água 750ml",
+      "price": 7,
+      "type": "menu principal",
+      "category": "bebidas",
+      "id": 10
+    },
+    {
+      "name": "Bebida Gaseificada 500ml",
+      "price": 7,
+      "type": "menu principal",
+      "category": "bebidas",
+      "id": 11
+    },
+    {
+      "name": "Bebida Gaseificada 750ml",
+      "price": 10,
+      "type": "menu principal",
+      "category": "bebidas",
+      "id": 12
     }
   ],
   "users": [
     {
-      "email": "anita.borg@systers.xyz",
-      "password": "$2a$10$gVkmcWdnwEBxXj2PWjuv9uDx7BfjiAobbabDAOrH2o8b1i3E7KwR.",
-      "role": "admin",
+      "email": "daiane@gmail.com.br",
+      "password": "$2a$10$u28tN2b0wJcTMobdJIeEbevGjaPzIcM3yJJuZiCaW.Vnr2Ycm04YC",
+      "role": "attendant",
       "id": 1
     },
     {
-      "email": "grace.hopper@systers.xyz",
-      "password": "$2a$10$JABwR1UAtJqr2DCJ41ypMOgOqlh8eRXmTBO6DXfKG3ybxhABY4rey",
-      "role": "admin",
+      "email": "maria@gmail.com.br",
+      "password": "$2a$10$9F4q1IQj5FNyN5leqTEGUOsMTz7rtZImp2TCFF9qWYhnLDHXy838m",
+      "role": "attendant",
       "id": 2
     },
     {
-      "email": "nara.sakamoto@laboratoria.la",
-      "password": "$2a$10$VkvaBkhnm4k3KP/yCdhCgu/qtzxe7F00CVkTsAsr5pbfU8rPVZEQW",
-      "role": "admin",
+      "email": "sarah@gmail.com",
+      "password": "$2a$10$2EkUbxSonbrnVhVQeREBpuVp8zEUmdIz9p0yJWNMwz5r3opYsi00G",
+      "role": "attendant",
       "id": 3
     }
   ]
