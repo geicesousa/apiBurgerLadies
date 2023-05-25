@@ -88,21 +88,21 @@
   ],
   "users": [
     {
-      "email": "daiane@gmail.com.br",
-      "password": "$2a$10$u28tN2b0wJcTMobdJIeEbevGjaPzIcM3yJJuZiCaW.Vnr2Ycm04YC",
-      "role": "attendant",
+      "email": "cozinha@gmail.com",
+      "password": "$2a$10$BlsTfddjdpJUSG77ArBCbeUkTLri0Rgx4UPedAzctWF8cQDJgUInu",
+      "role": "kitchen",
       "id": 1
     },
     {
-      "email": "maria@gmail.com.br",
-      "password": "$2a$10$9F4q1IQj5FNyN5leqTEGUOsMTz7rtZImp2TCFF9qWYhnLDHXy838m",
-      "role": "attendant",
+      "email": "adm@gmail.com",
+      "password": "$2a$10$PXxYKukT57h6x6epsaVCge/Yraxjxvy9jN3Ez7Uk.oS2KfIz8TU3O",
+      "role": "admin",
       "id": 2
     },
     {
-      "email": "sarah@gmail.com",
-      "password": "$2a$10$2EkUbxSonbrnVhVQeREBpuVp8zEUmdIz9p0yJWNMwz5r3opYsi00G",
-      "role": "attendant",
+      "email": "atendente@gmail.com",
+      "password": "$2a$10$oELo82/9Fr5hxG6saO2Imuhwd3.FjDBKQ6iPWl1tN8.CclLjF2Vbe",
+      "role": "attendance",
       "id": 3
     }
   ]
