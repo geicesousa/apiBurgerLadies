@@ -16,20 +16,6 @@
       "id": 2
     },
     {
-      "name": "Suco de Fruta Natural",
-      "price": 7,
-      "type": "café da manhã",
-      "category": "bebidas",
-      "id": 3
-    },
-    {
-      "name": "Sanduíche de presunto e queijo",
-      "price": 10,
-      "type": "café da manhã",
-      "category": "lanches",
-      "id": 4
-    },
-    {
       "name": "Hambúrguer Simples",
       "price": 10,
       "type": "menu principal",
@@ -84,26 +70,71 @@
       "type": "menu principal",
       "category": "bebidas",
       "id": 12
+    },
+    {
+      "name": "Bebida Gaseificada 250ml",
+      "price": 10,
+      "type": "menu principal",
+      "category": "bebidas",
+      "id": 13
+    },
+    {
+      "name": "Sanduíche misto",
+      "price": 10,
+      "type": "café da manhã",
+      "category": "lanches",
+      "id": 14
+    },
+    {
+      "name": "Suco de frutas",
+      "price": 7,
+      "type": "menu principal",
+      "category": "bebidas",
+      "id": 15
     }
   ],
   "users": [
     {
-      "email": "cozinha@gmail.com",
-      "password": "$2a$10$BlsTfddjdpJUSG77ArBCbeUkTLri0Rgx4UPedAzctWF8cQDJgUInu",
-      "role": "kitchen",
+      "email": "naroka@gmail.com",
+      "password": "$2a$10$T.G4UuJ6Q0ZraYT.JoZJhOtdbDYLXutKev0jCBdf7O0wxrPY2POXm",
+      "name": "Naroka",
+      "sector": "cozinha",
       "id": 1
     },
     {
-      "email": "adm@gmail.com",
-      "password": "$2a$10$PXxYKukT57h6x6epsaVCge/Yraxjxvy9jN3Ez7Uk.oS2KfIz8TU3O",
-      "role": "admin",
+      "email": "palomita@gmail.com",
+      "password": "$2a$10$VxvJA53vZDCgqPwn9/54HuJrVmUQRZ5dkb6XZEfERA6AKCFc6E4ZO",
+      "name": "Palomita",
+      "sector": "cozinha",
       "id": 2
     },
     {
-      "email": "atendente@gmail.com",
-      "password": "$2a$10$oELo82/9Fr5hxG6saO2Imuhwd3.FjDBKQ6iPWl1tN8.CclLjF2Vbe",
-      "role": "attendance",
+      "email": "daiane@gmail.com",
+      "password": "$2a$10$ZhbIyJ.4Utpvp7bPTOR6Vu4ltTPeah8W5631PKJvCicMqF.gN83i6",
+      "name": "Daiane dos Anjos",
+      "sector": "atendente",
       "id": 3
+    },
+    {
+      "email": "camila@gmail.com",
+      "password": "$2a$10$/nUrKBkxNukS5PHl/ybVD.jIPwAQcsZI.WFNX2bsjYfsgkVetV6wK",
+      "name": "Camila Nunes",
+      "sector": "administração",
+      "id": 4
+    },
+    {
+      "email": "geice@gmail.com",
+      "password": "$2a$10$jnPbC5BXmBBqhjsSGLnkqulKQ8A/cJTR4IFj5DeTJX/3Fp1Fcs.Ky",
+      "name": "Geice Souza",
+      "sector": "atendente",
+      "id": 5
+    },
+    {
+      "email": "sarah@gmail.com",
+      "password": "$2a$10$.uYlu.gOqmHUILBEKWtUx.thExzrNZBV7pUQVjW9lCbkb2y9cR/Ja",
+      "name": "Sarah Rodrigues",
+      "sector": "atendente",
+      "id": 6
     }
   ]
 }
