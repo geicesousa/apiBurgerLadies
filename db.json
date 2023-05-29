@@ -135,6 +135,13 @@
       "name": "Sarah Rodrigues",
       "sector": "atendente",
       "id": 6
+    },
+    {
+      "email": "teste@gmail.com",
+      "password": "$2a$10$A4hhTIL9Jqm6C10ez2/M7euVYtH.4dTGo38EP4SPw/MY8ue2yiGmy",
+      "name": " teste",
+      "sector": "atendente",
+      "id": 7
     }
   ]
 }
