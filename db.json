@@ -160,6 +160,15 @@
       "category": "hambúrgueres",
       "amount": 1,
       "id": 23
+    },
+    {
+      "name": "Café Americano",
+      "price": 5,
+      "type": "café da manhã",
+      "image": "https://github.com/daianedosanjos/burger-queen-api-mock/blob/main/resources/images/coffee.png",
+      "category": "bebidas",
+      "amount": 1,
+      "id": 24
     }
   ],
   "users": [
@@ -218,6 +227,13 @@
       "name": "tete",
       "sector": "atendente",
       "id": 8
+    },
+    {
+      "email": "teste@gmail.comm",
+      "password": "$2a$10$PNyj6bGdIsf7ksiqsNCLI.0HfxrmU2rctkvQb.Sbd1t1arRsU/aAi",
+      "name": "tete",
+      "sector": "atendente",
+      "id": 9
     }
   ]
 }
