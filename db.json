@@ -2,173 +2,184 @@
   "orders": [],
   "products": [
     {
-      "name": "Café Americano",
-      "price": 5,
-      "type": "café da manhã",
-      "category": "bebidas",
-      "amount": 1,
-      "id": 1
-    },
-    {
-      "name": "Café com Leite",
-      "price": 7,
-      "type": "café da manhã",
-      "category": "bebidas",
-      "amount": 1,
-      "id": 2
-    },
-    {
-      "name": "Sanduíche misto",
+      "name": "Hambúrguer Simples",
+      "description": "Pão de hambúrguer, carne 120g, queijo, salada e maionese da casa",
       "price": 10,
-      "type": "café da manhã",
-      "category": "lanches",
-      "amount": 1,
-      "id": 3
-    },
-    {
-      "name": "Bolo",
-      "price": 10,
-      "type": "café da manhã",
-      "category": "lanches",
-      "amount": 1,
-      "id": 4
-    },
-    {
-      "name": "Cuscuz com ovo",
-      "price": 10,
-      "type": "café da manhã",
-      "category": "lanches",
-      "amount": 1,
-      "id": 5
-    },
-    {
-      "name": "Tapioca",
-      "price": 10,
-      "type": "café da manhã",
-      "category": "lanches",
-      "amount": 1,
-      "id": 6
-    },
-    {
-      "name": "Tapioca Sertaneja",
-      "price": 10,
-      "type": "café da manhã",
-      "category": "lanches",
-      "amount": 1,
-      "id": 7
-    },
-    {
-      "name": "Crepe Sertanejo",
-      "price": 10,
-      "type": "café da manhã",
-      "category": "lanches",
-      "amount": 1,
-      "id": 8
-    },
-    {
-      "name": "Pão na chapa",
-      "price": 5,
-      "type": "café da manhã",
-      "category": "lanches",
-      "amount": 1,
-      "id": 11
-    },
-    {
-      "name": "Pão com ovo",
-      "price": 7,
-      "type": "café da manhã",
-      "category": "lanches",
-      "amount": 1,
-      "id": 12
-    },
-    {
-      "name": "Vitamina de frutas",
-      "price": 10,
-      "type": "café da manhã",
-      "category": "bebidas",
-      "amount": 1,
-      "id": 13
-    },
-    {
-      "name": "Suco de frutas",
-      "price": 10,
-      "type": "café da manhã",
-      "category": "bebidas",
-      "amount": 1,
-      "id": 14
-    },
-    {
-      "name": "Hambúrguer Duplo",
-      "price": 15,
       "type": "menu principal",
       "category": "hambúrgueres",
       "amount": 1,
-      "id": 16
+      "id": 27
+    },
+    {
+      "name": "X-Eggbacon",
+      "description": "Pão de hambúrguer, carne 120g, ovo, milho, batata palha, bacon, queijo, salada e maionese da casa",
+      "price": 14,
+      "type": "menu principal",
+      "category": "hambúrgueres",
+      "amount": 1,
+      "id": 29
+    },
+    {
+      "name": "X-tudo",
+      "description": "Pão de hambúrguer, carne 120g, queijo, bacon, milho, batata palha e maionese da casa",
+      "price": 16,
+      "type": "menu principal",
+      "category": "hambúrgueres",
+      "amount": 1,
+      "id": 30
+    },
+    {
+      "name": "X-tudão",
+      "description": "Pão de hambúrguer, 2 carnes 120g de picanha, 2 queijos, 02 presuntos, bacon, ovo, milho, batata palha, salada e maionese da casa",
+      "price": 20,
+      "type": "menu principal",
+      "category": "hambúrgueres",
+      "amount": 1,
+      "id": 31
+    },
+    {
+      "name": "X-Bacon",
+      "description": "Pão de hambúrguer, carne 120g, bacon, queijo, salada e maionese da casa",
+      "price": 13,
+      "type": "menu principal",
+      "category": "hambúrgueres",
+      "amount": 1,
+      "id": 32
     },
     {
       "name": "Batata Frita",
-      "price": 5,
+      "description": "Batata frita 300g",
+      "price": 15,
       "type": "menu principal",
       "category": "acompanhamentos",
       "amount": 1,
-      "id": 17
+      "id": 33
     },
     {
-      "name": "Anéis de Cebola",
-      "price": 5,
-      "type": "menu principal",
-      "category": "acompanhamentos",
+      "name": "Tapioca Sertaneja",
+      "description": "Carne de sol, queijo de coalho gratinado, cebola e manteiga da terra",
+      "price": 15,
+      "type": "café da manhã",
+      "category": "lanches",
       "amount": 1,
-      "id": 18
+      "id": 34
     },
     {
-      "name": "Água 500ml",
-      "price": 5,
-      "type": "menu principal",
-      "category": "bebidas",
+      "name": "Cuscuz simples na manteiga",
+      "description": "Cuscuz (milharina hidratada com manteiga) Sem Recheio.",
+      "price": 10,
+      "type": "café da manhã",
+      "category": "lanches",
       "amount": 1,
-      "id": 19
+      "id": 35
     },
     {
-      "name": "Refrigerante lata",
-      "price": 5,
-      "type": "menu principal",
-      "category": "bebidas",
+      "name": "Cuscuz com ovo",
+      "description": "Cuscuz com ovo frito",
+      "price": 14,
+      "type": "café da manhã",
+      "category": "lanches",
       "amount": 1,
-      "id": 20
+      "id": 36
     },
     {
-      "name": "Refrigerante litro",
-      "price": 5,
-      "type": "menu principal",
-      "category": "bebidas",
+      "name": "Bolo",
+      "description": "Fatia de bolo simples(consultar sabores)",
+      "price": 7,
+      "type": "café da manhã",
+      "category": "lanches",
       "amount": 1,
-      "id": 21
+      "id": 37
     },
     {
       "name": "Suco de frutas",
+      "description": "Suco natural de frutas, 300ml",
       "price": 10,
       "type": "menu principal",
       "category": "bebidas",
       "amount": 1,
-      "id": 22
+      "id": 38
     },
     {
-      "name": "Hambúrguer Simples",
-      "price": 10,
-      "type": "menu principal",
-      "category": "hambúrgueres",
+      "name": "Café com Leite",
+      "description": "Café expresso com leite, 100ml",
+      "price": 7,
+      "type": "café da manhã",
+      "category": "bebidas",
       "amount": 1,
-      "id": 23
+      "id": 39
     },
     {
-      "name": "Café Americano",
+      "name": "Pão na chapa",
+      "description": "Pão com manteiga ",
       "price": 5,
       "type": "café da manhã",
-      "image": "https://github.com/daianedosanjos/burger-queen-api-mock/blob/main/resources/images/coffee.png",
+      "category": "lanches",
+      "amount": 1,
+      "id": 40
+    },
+    {
+      "name": "Refrigerante lata",
+      "description": "Refrigerante lata",
+      "price": 5,
+      "type": "menu principal",
       "category": "bebidas",
       "amount": 1,
-      "id": 24
+      "id": 42
+    },
+    {
+      "name": "Refrigerante litro",
+      "description": "Refrigerante 1 litro",
+      "price": 9,
+      "type": "menu principal",
+      "category": "bebidas",
+      "amount": 1,
+      "id": 43
+    },
+    {
+      "name": "Água mineral",
+      "description": "Água mineral 500ml ",
+      "price": 5,
+      "type": "menu principal",
+      "category": "bebidas",
+      "amount": 1,
+      "id": 44
+    },
+    {
+      "name": "Suco da fruta",
+      "description": "Suco da fruta, 300ml(consultar sabores) ",
+      "price": 10,
+      "type": "café da manhã",
+      "category": "bebidas",
+      "amount": 1,
+      "id": 45
+    },
+    {
+      "name": "Vitamina de frutas",
+      "description": "Vitamina de frutas, 500ml",
+      "price": 15,
+      "type": "café da manhã",
+      "category": "bebidas",
+      "amount": 1,
+      "id": 46
+    },
+    {
+      "name": "Pamonha de milho",
+      "description": "Pamonha doce de milho",
+      "price": 15,
+      "type": "café da manhã",
+      "category": "lanches",
+      "amount": 1,
+      "id": 47
+    },
+    {
+      "name": "Pamonha de carimã",
+      "description": "Pamonha doce de carimã",
+      "price": 15,
+      "type": "café da manhã",
+      "category": "lanches",
+      "amount": 1,
+      "id": 48
     }
   ],
   "users": [
@@ -213,27 +224,6 @@
       "name": "Sarah Rodrigues",
       "sector": "atendente",
       "id": 6
-    },
-    {
-      "email": "teste@gmail.com",
-      "password": "$2a$10$A4hhTIL9Jqm6C10ez2/M7euVYtH.4dTGo38EP4SPw/MY8ue2yiGmy",
-      "name": " teste",
-      "sector": "atendente",
-      "id": 7
-    },
-    {
-      "email": "telll@gmail.comm",
-      "password": "$2a$10$e50.H6yHdR29pE52pd9t3OG478Wbdm/mSFO2g8lvVEnwQJoYdb8sC",
-      "name": "tete",
-      "sector": "atendente",
-      "id": 8
-    },
-    {
-      "email": "teste@gmail.comm",
-      "password": "$2a$10$PNyj6bGdIsf7ksiqsNCLI.0HfxrmU2rctkvQb.Sbd1t1arRsU/aAi",
-      "name": "tete",
-      "sector": "atendente",
-      "id": 9
     }
   ]
 }
