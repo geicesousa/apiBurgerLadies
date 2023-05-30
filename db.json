@@ -6,6 +6,7 @@
       "price": 5,
       "type": "café da manhã",
       "category": "bebidas",
+      "amount": 1,
       "id": 1
     },
     {
@@ -13,84 +14,152 @@
       "price": 7,
       "type": "café da manhã",
       "category": "bebidas",
+      "amount": 1,
       "id": 2
-    },
-    {
-      "name": "Hambúrguer Simples",
-      "price": 10,
-      "type": "menu principal",
-      "category": "hambúrgueres",
-      "id": 5
-    },
-    {
-      "name": "Hambúrguer Duplo",
-      "price": 15,
-      "type": "menu principal",
-      "category": "hambúrgueres",
-      "id": 6
-    },
-    {
-      "name": "Batata Frita",
-      "price": 5,
-      "type": "menu principal",
-      "category": "acompanhamentos",
-      "id": 7
-    },
-    {
-      "name": "Anéis de Cebola",
-      "price": 5,
-      "type": "menu principal",
-      "category": "acompanhamentos",
-      "id": 8
-    },
-    {
-      "name": "Água 500ml",
-      "price": 5,
-      "type": "menu principal",
-      "category": "bebidas",
-      "id": 9
-    },
-    {
-      "name": "Água 750ml",
-      "price": 7,
-      "type": "menu principal",
-      "category": "bebidas",
-      "id": 10
-    },
-    {
-      "name": "Bebida Gaseificada 500ml",
-      "price": 7,
-      "type": "menu principal",
-      "category": "bebidas",
-      "id": 11
-    },
-    {
-      "name": "Bebida Gaseificada 750ml",
-      "price": 10,
-      "type": "menu principal",
-      "category": "bebidas",
-      "id": 12
-    },
-    {
-      "name": "Bebida Gaseificada 250ml",
-      "price": 10,
-      "type": "menu principal",
-      "category": "bebidas",
-      "id": 13
     },
     {
       "name": "Sanduíche misto",
       "price": 10,
       "type": "café da manhã",
       "category": "lanches",
-      "id": 14
+      "amount": 1,
+      "id": 3
+    },
+    {
+      "name": "Bolo",
+      "price": 10,
+      "type": "café da manhã",
+      "category": "lanches",
+      "amount": 1,
+      "id": 4
+    },
+    {
+      "name": "Cuscuz com ovo",
+      "price": 10,
+      "type": "café da manhã",
+      "category": "lanches",
+      "amount": 1,
+      "id": 5
+    },
+    {
+      "name": "Tapioca",
+      "price": 10,
+      "type": "café da manhã",
+      "category": "lanches",
+      "amount": 1,
+      "id": 6
+    },
+    {
+      "name": "Tapioca Sertaneja",
+      "price": 10,
+      "type": "café da manhã",
+      "category": "lanches",
+      "amount": 1,
+      "id": 7
+    },
+    {
+      "name": "Crepe Sertanejo",
+      "price": 10,
+      "type": "café da manhã",
+      "category": "lanches",
+      "amount": 1,
+      "id": 8
+    },
+    {
+      "name": "Pão na chapa",
+      "price": 5,
+      "type": "café da manhã",
+      "category": "lanches",
+      "amount": 1,
+      "id": 11
+    },
+    {
+      "name": "Pão com ovo",
+      "price": 7,
+      "type": "café da manhã",
+      "category": "lanches",
+      "amount": 1,
+      "id": 12
+    },
+    {
+      "name": "Vitamina de frutas",
+      "price": 10,
+      "type": "café da manhã",
+      "category": "bebidas",
+      "amount": 1,
+      "id": 13
     },
     {
       "name": "Suco de frutas",
-      "price": 7,
+      "price": 10,
+      "type": "café da manhã",
+      "category": "bebidas",
+      "amount": 1,
+      "id": 14
+    },
+    {
+      "name": "Hambúrguer Duplo",
+      "price": 15,
+      "type": "menu principal",
+      "category": "hambúrgueres",
+      "amount": 1,
+      "id": 16
+    },
+    {
+      "name": "Batata Frita",
+      "price": 5,
+      "type": "menu principal",
+      "category": "acompanhamentos",
+      "amount": 1,
+      "id": 17
+    },
+    {
+      "name": "Anéis de Cebola",
+      "price": 5,
+      "type": "menu principal",
+      "category": "acompanhamentos",
+      "amount": 1,
+      "id": 18
+    },
+    {
+      "name": "Água 500ml",
+      "price": 5,
       "type": "menu principal",
       "category": "bebidas",
-      "id": 15
+      "amount": 1,
+      "id": 19
+    },
+    {
+      "name": "Refrigerante lata",
+      "price": 5,
+      "type": "menu principal",
+      "category": "bebidas",
+      "amount": 1,
+      "id": 20
+    },
+    {
+      "name": "Refrigerante litro",
+      "price": 5,
+      "type": "menu principal",
+      "category": "bebidas",
+      "amount": 1,
+      "id": 21
+    },
+    {
+      "name": "Suco de frutas",
+      "price": 10,
+      "type": "menu principal",
+      "category": "bebidas",
+      "amount": 1,
+      "id": 22
+    },
+    {
+      "name": "Hambúrguer Simples",
+      "price": 10,
+      "type": "menu principal",
+      "category": "hambúrgueres",
+      "amount": 1,
+      "id": 23
     }
   ],
   "users": [
@@ -142,6 +211,13 @@
       "name": " teste",
       "sector": "atendente",
       "id": 7
+    },
+    {
+      "email": "telll@gmail.comm",
+      "password": "$2a$10$e50.H6yHdR29pE52pd9t3OG478Wbdm/mSFO2g8lvVEnwQJoYdb8sC",
+      "name": "tete",
+      "sector": "atendente",
+      "id": 8
     }
   ]
 }
