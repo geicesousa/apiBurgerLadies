@@ -185,44 +185,37 @@
   "users": [
     {
       "email": "naroka@gmail.com",
-      "password": "$2a$10$T.G4UuJ6Q0ZraYT.JoZJhOtdbDYLXutKev0jCBdf7O0wxrPY2POXm",
+      "password": "$2a$10$Nm13ulhuKkyBjQqwhWYcduVBZtoM1n6xq0iB.3ONsCX7dysVsN/Zu",
       "name": "Naroka",
-      "sector": "cozinha",
-      "id": 1
-    },
-    {
-      "email": "palomita@gmail.com",
-      "password": "$2a$10$VxvJA53vZDCgqPwn9/54HuJrVmUQRZ5dkb6XZEfERA6AKCFc6E4ZO",
-      "name": "Palomita",
-      "sector": "cozinha",
+      "role": "cozinha",
       "id": 2
     },
     {
       "email": "daiane@gmail.com",
-      "password": "$2a$10$ZhbIyJ.4Utpvp7bPTOR6Vu4ltTPeah8W5631PKJvCicMqF.gN83i6",
-      "name": "Daiane dos Anjos",
-      "sector": "atendente",
+      "password": "$2a$10$dECkOga1CCTeibtG4BZrQ.k8HzJWUoxoB8bVgvNs6wYgnGDHI3.me",
+      "name": "Daiane",
+      "role": "atendente",
       "id": 3
     },
     {
-      "email": "camila@gmail.com",
-      "password": "$2a$10$/nUrKBkxNukS5PHl/ybVD.jIPwAQcsZI.WFNX2bsjYfsgkVetV6wK",
-      "name": "Camila Nunes",
-      "sector": "administração",
+      "email": "geice@gmail.com",
+      "password": "$2a$10$sDi7PNRykvaklZxiA0jR2.e.J1FRyowiGob8VAar5Pc9QWqtqYxHS",
+      "name": "Geice",
+      "role": "atendente",
       "id": 4
     },
     {
-      "email": "geice@gmail.com",
-      "password": "$2a$10$jnPbC5BXmBBqhjsSGLnkqulKQ8A/cJTR4IFj5DeTJX/3Fp1Fcs.Ky",
-      "name": "Geice Souza",
-      "sector": "atendente",
+      "email": "camila@gmail.com",
+      "password": "$2a$10$hTF7TrkvqtrvrobrlxG2PubfrVjSDzjmfjri4HjXERoMquzKNJNeC",
+      "name": "Camila Nunes",
+      "role": "administração",
       "id": 5
     },
     {
-      "email": "sarah@gmail.com",
-      "password": "$2a$10$.uYlu.gOqmHUILBEKWtUx.thExzrNZBV7pUQVjW9lCbkb2y9cR/Ja",
-      "name": "Sarah Rodrigues",
-      "sector": "atendente",
+      "email": "palomita@gmail.com",
+      "password": "$2a$10$EFcuLqck5gEztzOYBDO8L.j60kfQzFjwFBv0HSepCQh44PHDq7yaG",
+      "name": "Palomita",
+      "role": "cozinha",
       "id": 6
     }
   ]
