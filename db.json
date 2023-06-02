@@ -1,5 +1,7 @@
 {
-  "orders": [],
+  "orders": [     
+    
+  ],
   "products": [
     {
       "name": "Hambúrguer Simples",
@@ -217,6 +219,20 @@
       "name": "Palomita",
       "role": "cozinha",
       "id": 6
+    },
+    {
+      "email": "limpar@gmail.com",
+      "password": "$2a$10$.KCOVeBk796E8zXz7uYCceGl8yo8DGm.HTn6TSw/US9PnwrXyUU2S",
+      "name": " testelimpar",
+      "sector": "atendente",
+      "id": 7
+    },
+    {
+      "email": "palomigggta@gmail.com",
+      "password": "$2a$10$ljmNPKd1WHR82JDHzFcGyevzeu4wecG7gYEp53MbTXRVY5hPPE2xq",
+      "name": "Palomita",
+      "role": "cozinha",
+      "id": 8
     }
   ]
 }
