@@ -1,5 +1,132 @@
 {
-  "orders": [],
+  "orders": [
+    {
+      "name": " Daiane dos Anjos",
+      "table": "1",
+      "total": 10,
+      "status": "entregue",
+      "pedidos": [
+        {
+          "name": "Cuscuz simples na manteiga",
+          "description": "Cuscuz (milharina hidratada com manteiga) Sem Recheio.",
+          "price": 10,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 35
+        }
+      ],
+      "id": 1
+    },
+    {
+      "name": " Daiane",
+      "table": "1",
+      "total": 10,
+      "status": "entregue",
+      "pedidos": [
+        {
+          "name": "Cuscuz simples na manteiga",
+          "description": "Cuscuz (milharina hidratada com manteiga) Sem Recheio.",
+          "price": 10,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 35
+        }
+      ],
+      "id": 2
+    },
+    {
+      "name": " teste",
+      "table": "4",
+      "total": 7,
+      "status": "entregue",
+      "pedidos": [
+        {
+          "name": "Bolo",
+          "description": "Fatia de bolo simples(consultar sabores)",
+          "price": 7,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 37
+        }
+      ],
+      "id": 3
+    },
+    {
+      "name": " teste2",
+      "table": "4",
+      "total": 7,
+      "status": "pronto",
+      "pedidos": [
+        {
+          "name": "Bolo",
+          "description": "Fatia de bolo simples(consultar sabores)",
+          "price": 7,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 37
+        }
+      ],
+      "id": 4
+    },
+    {
+      "name": " teste",
+      "table": "1",
+      "total": 7,
+      "status": "pronto",
+      "pedidos": [
+        {
+          "name": "Bolo",
+          "description": "Fatia de bolo simples(consultar sabores)",
+          "price": 7,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 37
+        }
+      ],
+      "id": 5
+    },
+    {
+      "name": "teste",
+      "table": "2",
+      "total": 7,
+      "status": "entregue",
+      "pedidos": [
+        {
+          "name": "Bolo",
+          "description": "Fatia de bolo simples(consultar sabores)",
+          "price": 7,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 37
+        }
+      ],
+      "id": 6
+    },
+    {
+      "name": " teste",
+      "table": "1",
+      "total": 10,
+      "status": "aberto",
+      "pedidos": [
+        {
+          "name": "Cuscuz simples na manteiga",
+          "description": "Cuscuz (milharina hidratada com manteiga) Sem Recheio.",
+          "price": 10,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 35
+        }
+      ],
+      "id": 7
+    }
+  ],
   "products": [
     {
       "name": "Hambúrguer Simples",
@@ -184,53 +311,11 @@
   ],
   "users": [
     {
-      "email": "naroka@gmail.com",
-      "password": "$2a$10$Nm13ulhuKkyBjQqwhWYcduVBZtoM1n6xq0iB.3ONsCX7dysVsN/Zu",
-      "name": "Naroka",
-      "role": "cozinha",
-      "id": 2
-    },
-    {
       "email": "daiane@gmail.com",
-      "password": "$2a$10$dECkOga1CCTeibtG4BZrQ.k8HzJWUoxoB8bVgvNs6wYgnGDHI3.me",
-      "name": "Daiane",
+      "password": "$2a$10$Qsrii2I1lXPGIz4/lZsKnuSAQV3a11vd7TdAWnE.vufC3K4RDTUEG",
+      "name": " Daiane dos Anjos",
       "role": "atendente",
-      "id": 3
-    },
-    {
-      "email": "geice@gmail.com",
-      "password": "$2a$10$sDi7PNRykvaklZxiA0jR2.e.J1FRyowiGob8VAar5Pc9QWqtqYxHS",
-      "name": "Geice",
-      "role": "atendente",
-      "id": 4
-    },
-    {
-      "email": "camila@gmail.com",
-      "password": "$2a$10$hTF7TrkvqtrvrobrlxG2PubfrVjSDzjmfjri4HjXERoMquzKNJNeC",
-      "name": "Camila Nunes",
-      "role": "administração",
-      "id": 5
-    },
-    {
-      "email": "palomita@gmail.com",
-      "password": "$2a$10$EFcuLqck5gEztzOYBDO8L.j60kfQzFjwFBv0HSepCQh44PHDq7yaG",
-      "name": "Palomita",
-      "role": "cozinha",
-      "id": 6
-    },
-    {
-      "email": "limpar@gmail.com",
-      "password": "$2a$10$.KCOVeBk796E8zXz7uYCceGl8yo8DGm.HTn6TSw/US9PnwrXyUU2S",
-      "name": " testelimpar",
-      "sector": "atendente",
-      "id": 7
-    },
-    {
-      "email": "palomigggta@gmail.com",
-      "password": "$2a$10$ljmNPKd1WHR82JDHzFcGyevzeu4wecG7gYEp53MbTXRVY5hPPE2xq",
-      "name": "Palomita",
-      "role": "cozinha",
-      "id": 8
+      "id": 11
     }
   ]
 }
