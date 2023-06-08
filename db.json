@@ -3,128 +3,146 @@
     {
       "name": " Daiane dos Anjos",
       "table": "1",
-      "total": 10,
+      "total": 37,
       "status": "entregue",
       "pedidos": [
         {
-          "name": "Cuscuz simples na manteiga",
-          "description": "Cuscuz (milharina hidratada com manteiga) Sem Recheio.",
-          "price": 10,
+          "name": "Tapioca Sertaneja",
+          "description": "Carne de sol, queijo de coalho gratinado, cebola e manteiga da terra",
+          "price": 15,
           "type": "café da manhã",
           "category": "lanches",
           "amount": 1,
-          "id": 35
+          "id": 34
+        },
+        {
+          "name": "Bolo",
+          "description": "Fatia de bolo simples(consultar sabores)",
+          "price": 7,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 37
+        },
+        {
+          "name": "Suco da fruta",
+          "description": "Suco da fruta, 300ml(consultar sabores) ",
+          "price": 10,
+          "type": "café da manhã",
+          "category": "bebidas",
+          "amount": 1,
+          "id": 45
+        },
+        {
+          "name": "Pão na chapa",
+          "description": "Pão com manteiga ",
+          "price": 5,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 40
         }
       ],
       "id": 1
     },
     {
-      "name": " Daiane",
-      "table": "1",
-      "total": 10,
+      "name": " Amanda Vieira",
+      "table": "2",
+      "total": 28,
       "status": "entregue",
       "pedidos": [
         {
-          "name": "Cuscuz simples na manteiga",
-          "description": "Cuscuz (milharina hidratada com manteiga) Sem Recheio.",
-          "price": 10,
-          "type": "café da manhã",
-          "category": "lanches",
+          "name": "X-Eggbacon",
+          "description": "Pão de hambúrguer, carne 120g, ovo, milho, batata palha, bacon, queijo, salada e maionese da casa",
+          "price": 14,
+          "type": "menu principal",
+          "category": "hambúrgueres",
           "amount": 1,
-          "id": 35
+          "id": 29
+        },
+        {
+          "name": "Refrigerante litro",
+          "description": "Refrigerante 1 litro",
+          "price": 9,
+          "type": "menu principal",
+          "category": "bebidas",
+          "amount": 1,
+          "id": 43
+        },
+        {
+          "name": "Refrigerante lata",
+          "description": "Refrigerante lata",
+          "price": 5,
+          "type": "menu principal",
+          "category": "bebidas",
+          "amount": 1,
+          "id": 42
         }
       ],
       "id": 2
     },
     {
-      "name": " teste",
-      "table": "4",
-      "total": 7,
+      "name": " Carla Almeida",
+      "table": "2",
+      "total": 36,
       "status": "entregue",
       "pedidos": [
         {
-          "name": "Bolo",
-          "description": "Fatia de bolo simples(consultar sabores)",
-          "price": 7,
-          "type": "café da manhã",
-          "category": "lanches",
+          "name": "X-tudo",
+          "description": "Pão de hambúrguer, carne 120g, queijo, bacon, milho, batata palha e maionese da casa",
+          "price": 16,
+          "type": "menu principal",
+          "category": "hambúrgueres",
           "amount": 1,
-          "id": 37
+          "id": 30
+        },
+        {
+          "name": "X-tudão",
+          "description": "Pão de hambúrguer, 2 carnes 120g de picanha, 2 queijos, 02 presuntos, bacon, ovo, milho, batata palha, salada e maionese da casa",
+          "price": 20,
+          "type": "menu principal",
+          "category": "hambúrgueres",
+          "amount": 1,
+          "id": 31
         }
       ],
       "id": 3
     },
     {
-      "name": " teste2",
-      "table": "4",
-      "total": 7,
-      "status": "pronto",
-      "pedidos": [
-        {
-          "name": "Bolo",
-          "description": "Fatia de bolo simples(consultar sabores)",
-          "price": 7,
-          "type": "café da manhã",
-          "category": "lanches",
-          "amount": 1,
-          "id": 37
-        }
-      ],
-      "id": 4
-    },
-    {
-      "name": " teste",
-      "table": "1",
-      "total": 7,
-      "status": "pronto",
-      "pedidos": [
-        {
-          "name": "Bolo",
-          "description": "Fatia de bolo simples(consultar sabores)",
-          "price": 7,
-          "type": "café da manhã",
-          "category": "lanches",
-          "amount": 1,
-          "id": 37
-        }
-      ],
-      "id": 5
-    },
-    {
-      "name": "teste",
+      "name": " Maria",
       "table": "2",
-      "total": 7,
-      "status": "entregue",
-      "pedidos": [
-        {
-          "name": "Bolo",
-          "description": "Fatia de bolo simples(consultar sabores)",
-          "price": 7,
-          "type": "café da manhã",
-          "category": "lanches",
-          "amount": 1,
-          "id": 37
-        }
-      ],
-      "id": 6
-    },
-    {
-      "name": " teste",
-      "table": "1",
-      "total": 10,
+      "total": 14,
       "status": "aberto",
       "pedidos": [
         {
-          "name": "Cuscuz simples na manteiga",
-          "description": "Cuscuz (milharina hidratada com manteiga) Sem Recheio.",
-          "price": 10,
-          "type": "café da manhã",
-          "category": "lanches",
+          "name": "X-Eggbacon",
+          "description": "Pão de hambúrguer, carne 120g, ovo, milho, batata palha, bacon, queijo, salada e maionese da casa",
+          "price": 14,
+          "type": "menu principal",
+          "category": "hambúrgueres",
           "amount": 1,
-          "id": 35
+          "id": 29
         }
       ],
-      "id": 7
+      "id": 13
+    },
+    {
+      "name": " Teste",
+      "table": " ",
+      "total": 16,
+      "status": "aberto",
+      "pedidos": [
+        {
+          "name": "X-tudo",
+          "description": "Pão de hambúrguer, carne 120g, queijo, bacon, milho, batata palha e maionese da casa",
+          "price": 16,
+          "type": "menu principal",
+          "category": "hambúrgueres",
+          "amount": 1,
+          "id": 30
+        }
+      ],
+      "id": 14
     }
   ],
   "products": [
@@ -307,6 +325,16 @@
       "category": "lanches",
       "amount": 1,
       "id": 48
+    },
+    {
+      "name": " teste",
+      "img": "teste",
+      "description": "teste",
+      "price": "5",
+      "type": "café da manhã",
+      "category": "lanches",
+      "amount": "1",
+      "id": 54
     }
   ],
   "users": [
@@ -316,6 +344,20 @@
       "name": " Daiane dos Anjos",
       "role": "atendente",
       "id": 11
+    },
+    {
+      "email": "geice@gmail.com",
+      "password": "$2a$10$AOgwMSHDJlfckHNYe4B4/O4WItZzocsogjkEHwbJKZnpBlLKUo0kG",
+      "name": " Geice Souza",
+      "role": "atendente",
+      "id": 12
+    },
+    {
+      "email": "teste1@gmail.com",
+      "password": "$2a$10$KdAcyVGgTAnYqCaRyDvmsux3pbqsc1sJXwfVFdZsjihudYM0gWvTa",
+      "name": "Teste",
+      "role": "atendente",
+      "id": 13
     }
   ]
 }
