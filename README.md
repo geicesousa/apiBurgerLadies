@@ -28,8 +28,5 @@ usando como URL base [http://localhost:8080/](http://localhost:8080/).
     en VSCode usando la extensión 
     [REST Client](https://marketplace.visualstudio.com/items?itemName=humao.rest-client).
 
-## Información
 
-El mock _out-of-the-box_ provee información de 2 usuarias administradoras _anita.borg@systers.xyz_ y _grace.hopper@systers.xyz_. La contraseña de ambos usuarios es _123456_
 
-También provee información de 2 órdenes y 2 productos.
