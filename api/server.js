@@ -9,7 +9,12 @@ const app = jsonServer.create();
 const data = fs.readFileSync(path.resolve(__dirname, '../db.json'), 'utf8');
 fs.writeFileSync('db.json', data);
 
-const router = jsonServer.router('db.json');
+const router = jsonServer.router('db.json'); // para windows
+
+// const data = fs.readFileSync(path.resolve(__dirname, '../db.json'), 'utf8');
+// fs.writeFileSync('/tmp/db.json', data);
+
+// const router = jsonServer.router('/tmp/db.json'); // para o vercel que funciona como linux com \
 
 const port = process.env.PORT || 8080;
 

@@ -1,10 +1,60 @@
 {
   "orders": [
     {
-      "name": " Daiane dos Anjos",
-      "table": "1",
-      "total": 37,
+      "name": " Geice PF",
+      "table": "2",
+      "total": 74,
       "status": "entregue",
+      "realizado": "27/06/2023, 14:43:57",
+      "data": "2023-06-27T17:43:57.999Z",
+      "pedidos": [
+        {
+          "name": "Tapioca Sertaneja",
+          "description": "Carne de sol, queijo de coalho gratinado, cebola e manteiga da terra",
+          "price": 15,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 2,
+          "id": 34
+        },
+        {
+          "name": "Cuscuz simples na manteiga",
+          "description": "Cuscuz (milharina hidratada com manteiga) Sem Recheio.",
+          "price": 10,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 2,
+          "id": 35
+        },
+        {
+          "name": "Hambúrguer Simples",
+          "description": "Pão de hambúrguer, carne 120g, queijo, salada e maionese da casa",
+          "price": 10,
+          "type": "menu principal",
+          "category": "hambúrgueres",
+          "amount": 1,
+          "id": 27
+        },
+        {
+          "name": "X-Eggbacon",
+          "description": "Pão de hambúrguer, carne 120g, ovo, milho, batata palha, bacon, queijo, salada e maionese da casa",
+          "price": 14,
+          "type": "menu principal",
+          "category": "hambúrgueres",
+          "amount": 1,
+          "id": 29
+        }
+      ],
+      "id": 5,
+      "datapronto": "2023-06-27T17:44:56.809Z"
+    },
+    {
+      "name": "Geice Aberto",
+      "table": "1",
+      "total": 61,
+      "status": "aberto",
+      "realizado": "27/06/2023, 18:04:37",
+      "data": "2023-06-27T21:04:37.687Z",
       "pedidos": [
         {
           "name": "Tapioca Sertaneja",
@@ -14,6 +64,15 @@
           "category": "lanches",
           "amount": 1,
           "id": 34
+        },
+        {
+          "name": "Cuscuz com ovo",
+          "description": "Cuscuz com ovo frito",
+          "price": 14,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 36
         },
         {
           "name": "Bolo",
@@ -34,23 +93,34 @@
           "id": 45
         },
         {
-          "name": "Pão na chapa",
-          "description": "Pão com manteiga ",
-          "price": 5,
+          "name": "Vitamina de frutas",
+          "description": "Vitamina de frutas, 500ml",
+          "price": 15,
           "type": "café da manhã",
-          "category": "lanches",
+          "category": "bebidas",
           "amount": 1,
-          "id": 40
+          "id": 46
         }
       ],
-      "id": 1
+      "id": 7
     },
     {
-      "name": " Amanda Vieira",
+      "name": "Geice Execução",
       "table": "2",
-      "total": 28,
-      "status": "entregue",
+      "total": 42,
+      "status": "execução",
+      "realizado": "27/06/2023, 18:05:44",
+      "data": "2023-06-27T21:05:44.935Z",
       "pedidos": [
+        {
+          "name": "Hambúrguer Simples",
+          "description": "Pão de hambúrguer, carne 120g, queijo, salada e maionese da casa",
+          "price": 10,
+          "type": "menu principal",
+          "category": "hambúrgueres",
+          "amount": 1,
+          "id": 27
+        },
         {
           "name": "X-Eggbacon",
           "description": "Pão de hambúrguer, carne 120g, ovo, milho, batata palha, bacon, queijo, salada e maionese da casa",
@@ -61,13 +131,13 @@
           "id": 29
         },
         {
-          "name": "Refrigerante litro",
-          "description": "Refrigerante 1 litro",
-          "price": 9,
+          "name": "X-Bacon",
+          "description": "Pão de hambúrguer, carne 120g, bacon, queijo, salada e maionese da casa",
+          "price": 13,
           "type": "menu principal",
-          "category": "bebidas",
+          "category": "hambúrgueres",
           "amount": 1,
-          "id": 43
+          "id": 32
         },
         {
           "name": "Refrigerante lata",
@@ -79,14 +149,55 @@
           "id": 42
         }
       ],
-      "id": 2
+      "id": 8
     },
     {
-      "name": " Carla Almeida",
-      "table": "2",
-      "total": 36,
-      "status": "entregue",
+      "name": "Pedido Pronto ",
+      "table": "4",
+      "total": 25,
+      "status": "pronto",
+      "realizado": "28/06/2023, 15:02:46",
+      "data": "2023-06-28T18:02:46.843Z",
       "pedidos": [
+        {
+          "name": "Tapioca Sertaneja",
+          "description": "Carne de sol, queijo de coalho gratinado, cebola e manteiga da terra",
+          "price": 15,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 34
+        },
+        {
+          "name": "Cuscuz simples na manteiga",
+          "description": "Cuscuz (milharina hidratada com manteiga) Sem Recheio.",
+          "price": 10,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 35
+        }
+      ],
+      "id": 9,
+      "datapronto": "2023-06-28T18:05:18.187Z"
+    },
+    {
+      "name": "Outro Pedido Pronto ",
+      "table": "2",
+      "total": 50,
+      "status": "pronto",
+      "realizado": "28/06/2023, 15:05:49",
+      "data": "2023-06-28T18:05:49.011Z",
+      "pedidos": [
+        {
+          "name": "X-tudão",
+          "description": "Pão de hambúrguer, 2 carnes 120g de picanha, 2 queijos, 02 presuntos, bacon, ovo, milho, batata palha, salada e maionese da casa",
+          "price": 20,
+          "type": "menu principal",
+          "category": "hambúrgueres",
+          "amount": 1,
+          "id": 31
+        },
         {
           "name": "X-tudo",
           "description": "Pão de hambúrguer, carne 120g, queijo, bacon, milho, batata palha e maionese da casa",
@@ -97,52 +208,17 @@
           "id": 30
         },
         {
-          "name": "X-tudão",
-          "description": "Pão de hambúrguer, 2 carnes 120g de picanha, 2 queijos, 02 presuntos, bacon, ovo, milho, batata palha, salada e maionese da casa",
-          "price": 20,
-          "type": "menu principal",
-          "category": "hambúrgueres",
-          "amount": 1,
-          "id": 31
-        }
-      ],
-      "id": 3
-    },
-    {
-      "name": " Maria",
-      "table": "2",
-      "total": 14,
-      "status": "aberto",
-      "pedidos": [
-        {
-          "name": "X-Eggbacon",
-          "description": "Pão de hambúrguer, carne 120g, ovo, milho, batata palha, bacon, queijo, salada e maionese da casa",
+          "name": "Cuscuz com ovo",
+          "description": "Cuscuz com ovo frito",
           "price": 14,
-          "type": "menu principal",
-          "category": "hambúrgueres",
+          "type": "café da manhã",
+          "category": "lanches",
           "amount": 1,
-          "id": 29
+          "id": 36
         }
       ],
-      "id": 13
-    },
-    {
-      "name": " Teste",
-      "table": " ",
-      "total": 16,
-      "status": "aberto",
-      "pedidos": [
-        {
-          "name": "X-tudo",
-          "description": "Pão de hambúrguer, carne 120g, queijo, bacon, milho, batata palha e maionese da casa",
-          "price": 16,
-          "type": "menu principal",
-          "category": "hambúrgueres",
-          "amount": 1,
-          "id": 30
-        }
-      ],
-      "id": 14
+      "id": 10,
+      "datapronto": "2023-06-28T18:06:56.578Z"
     }
   ],
   "products": [
@@ -327,14 +403,34 @@
       "id": 48
     },
     {
-      "name": " teste",
-      "img": "teste",
-      "description": "teste",
-      "price": "5",
-      "type": "café da manhã",
-      "category": "lanches",
+      "name": " Geice Sousa",
+      "img": " ",
+      "description": " bolinho de carne com trigo vegetal",
+      "price": "12",
+      "type": "Menu Principal",
+      "category": "Acompanhamentos",
+      "amount": "4",
+      "id": 55
+    },
+    {
+      "name": "doce de leite",
+      "img": "",
+      "description": "",
+      "price": "",
+      "type": "Café da manhã",
+      "category": "",
+      "amount": "",
+      "id": 56
+    },
+    {
+      "name": "Cuscuz doce",
+      "img": "ad",
+      "description": "cuscuz com leite de coco",
+      "price": "10,00",
+      "type": "Café da manhã",
+      "category": "Lanches",
       "amount": "1",
-      "id": 54
+      "id": 58
     }
   ],
   "users": [
@@ -353,11 +449,25 @@
       "id": 12
     },
     {
-      "email": "teste1@gmail.com",
-      "password": "$2a$10$KdAcyVGgTAnYqCaRyDvmsux3pbqsc1sJXwfVFdZsjihudYM0gWvTa",
-      "name": "Teste",
-      "role": "atendente",
-      "id": 13
+      "email": "teste@teste.com",
+      "password": "$2a$10$4f1HIk1RHZW4UjG43cGgs.O13waYgSBAsguoeG3zAHMhcX3w4H57W",
+      "name": " Geice Sousa",
+      "role": "Administração",
+      "id": 14
+    },
+    {
+      "email": "GEICE@OUK.COM",
+      "password": "$2a$10$qfkpQSOcBaQq4FFKzulQPeNxOA2ACOjT70nexZfYIm2ui/ruvV9Ra",
+      "name": "geice SOusa",
+      "role": "Cozinha",
+      "id": 21
+    },
+    {
+      "email": "palomita@gmail.com",
+      "password": "$2a$10$ySfkuDLlL4TN4.OcbZgKIeFWULYMEDhkRnX6tn.XPGTUJ0Ic60ZdK",
+      "name": "Palomita",
+      "role": "Administração",
+      "id": 23
     }
   ]
 }
