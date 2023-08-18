@@ -49,62 +49,6 @@
       "datapronto": "2023-06-27T17:44:56.809Z"
     },
     {
-      "name": "Geice Aberto",
-      "table": "1",
-      "total": 61,
-      "status": "aberto",
-      "realizado": "27/06/2023, 18:04:37",
-      "data": "2023-06-27T21:04:37.687Z",
-      "pedidos": [
-        {
-          "name": "Tapioca Sertaneja",
-          "description": "Carne de sol, queijo de coalho gratinado, cebola e manteiga da terra",
-          "price": 15,
-          "type": "café da manhã",
-          "category": "lanches",
-          "amount": 1,
-          "id": 34
-        },
-        {
-          "name": "Cuscuz com ovo",
-          "description": "Cuscuz com ovo frito",
-          "price": 14,
-          "type": "café da manhã",
-          "category": "lanches",
-          "amount": 1,
-          "id": 36
-        },
-        {
-          "name": "Bolo",
-          "description": "Fatia de bolo simples(consultar sabores)",
-          "price": 7,
-          "type": "café da manhã",
-          "category": "lanches",
-          "amount": 1,
-          "id": 37
-        },
-        {
-          "name": "Suco da fruta",
-          "description": "Suco da fruta, 300ml(consultar sabores) ",
-          "price": 10,
-          "type": "café da manhã",
-          "category": "bebidas",
-          "amount": 1,
-          "id": 45
-        },
-        {
-          "name": "Vitamina de frutas",
-          "description": "Vitamina de frutas, 500ml",
-          "price": 15,
-          "type": "café da manhã",
-          "category": "bebidas",
-          "amount": 1,
-          "id": 46
-        }
-      ],
-      "id": 7
-    },
-    {
       "name": "Geice Execução",
       "table": "2",
       "total": 42,
@@ -219,6 +163,149 @@
       ],
       "id": 10,
       "datapronto": "2023-06-28T18:06:56.578Z"
+    },
+    {
+      "name": " Geice Talent",
+      "table": "1",
+      "total": 54,
+      "status": "aberto",
+      "realizado": "15/07/2023, 23:58:52",
+      "data": "2023-07-16T02:58:52.189Z",
+      "pedidos": [
+        {
+          "name": "Cuscuz simples na manteiga",
+          "description": "Cuscuz (milharina hidratada com manteiga) Sem Recheio.",
+          "price": 10,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 35
+        },
+        {
+          "name": "Tapioca Sertaneja",
+          "description": "Carne de sol, queijo de coalho gratinado, cebola e manteiga da terra",
+          "price": 15,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 2,
+          "id": 34
+        },
+        {
+          "name": "X-Eggbacon",
+          "description": "Pão de hambúrguer, carne 120g, ovo, milho, batata palha, bacon, queijo, salada e maionese da casa",
+          "price": 14,
+          "type": "menu principal",
+          "category": "hambúrgueres",
+          "amount": 1,
+          "id": 29
+        }
+      ],
+      "id": 13
+    },
+    {
+      "name": " Geice Teste",
+      "table": "1",
+      "total": 68,
+      "status": "execução",
+      "realizado": "16/07/2023, 01:15:42",
+      "data": "2023-07-16T04:15:42.164Z",
+      "pedidos": [
+        {
+          "name": "Tapioca Sertaneja",
+          "description": "Carne de sol, queijo de coalho gratinado, cebola e manteiga da terra",
+          "price": 15,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 2,
+          "id": 34
+        },
+        {
+          "name": "Cuscuz com ovo",
+          "description": "Cuscuz com ovo frito",
+          "price": 14,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 36
+        },
+        {
+          "name": "Cuscuz simples na manteiga",
+          "description": "Cuscuz (milharina hidratada com manteiga) Sem Recheio.",
+          "price": 10,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 1,
+          "id": 35
+        },
+        {
+          "name": "X-Eggbacon",
+          "description": "Pão de hambúrguer, carne 120g, ovo, milho, batata palha, bacon, queijo, salada e maionese da casa",
+          "price": 14,
+          "type": "menu principal",
+          "category": "hambúrgueres",
+          "amount": 1,
+          "id": 29
+        }
+      ],
+      "id": 14
+    },
+    {
+      "name": " Geice Talent",
+      "table": "2",
+      "total": 44,
+      "status": "aberto",
+      "realizado": "16/07/2023, 01:23:58",
+      "data": "2023-07-16T04:23:58.277Z",
+      "pedidos": [
+        {
+          "name": "Tapioca Sertaneja",
+          "description": "Carne de sol, queijo de coalho gratinado, cebola e manteiga da terra",
+          "price": 15,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 2,
+          "id": 34
+        },
+        {
+          "name": "X-Eggbacon",
+          "description": "Pão de hambúrguer, carne 120g, ovo, milho, batata palha, bacon, queijo, salada e maionese da casa",
+          "price": 14,
+          "type": "menu principal",
+          "category": "hambúrgueres",
+          "amount": 1,
+          "id": 29
+        }
+      ],
+      "id": 16
+    },
+    {
+      "name": " Geice",
+      "table": "1",
+      "total": 44,
+      "status": "aberto",
+      "realizado": "16/07/2023, 01:26:07",
+      "data": "2023-07-16T04:26:07.674Z",
+      "pedidos": [
+        {
+          "name": "Tapioca Sertaneja",
+          "description": "Carne de sol, queijo de coalho gratinado, cebola e manteiga da terra",
+          "price": 15,
+          "type": "café da manhã",
+          "category": "lanches",
+          "amount": 2,
+          "id": 34
+        },
+        {
+          "name": "X-Eggbacon",
+          "description": "Pão de hambúrguer, carne 120g, ovo, milho, batata palha, bacon, queijo, salada e maionese da casa",
+          "price": 14,
+          "type": "menu principal",
+          "category": "hambúrgueres",
+          "amount": 1,
+          "id": 29
+        }
+      ],
+      "id": 17
     }
   ],
   "products": [
@@ -435,39 +522,46 @@
   ],
   "users": [
     {
-      "email": "daiane@gmail.com",
-      "password": "$2a$10$Qsrii2I1lXPGIz4/lZsKnuSAQV3a11vd7TdAWnE.vufC3K4RDTUEG",
-      "name": " Daiane dos Anjos",
-      "role": "atendente",
-      "id": 11
-    },
-    {
-      "email": "geice@gmail.com",
-      "password": "$2a$10$AOgwMSHDJlfckHNYe4B4/O4WItZzocsogjkEHwbJKZnpBlLKUo0kG",
-      "name": " Geice Souza",
-      "role": "atendente",
-      "id": 12
-    },
-    {
-      "email": "teste@teste.com",
-      "password": "$2a$10$4f1HIk1RHZW4UjG43cGgs.O13waYgSBAsguoeG3zAHMhcX3w4H57W",
-      "name": " Geice Sousa",
-      "role": "Administração",
-      "id": 14
-    },
-    {
-      "email": "GEICE@OUK.COM",
-      "password": "$2a$10$qfkpQSOcBaQq4FFKzulQPeNxOA2ACOjT70nexZfYIm2ui/ruvV9Ra",
-      "name": "geice SOusa",
+      "email": "cozinha@burgerladies.com",
+      "password": "$2a$10$PYVotvKemnciL1Bx/fCcjO1YBe1y4NP93dNa8DnOvn8HVRHGu0kku",
+      "name": "Cozinha",
       "role": "Cozinha",
-      "id": 21
+      "id": 25
     },
     {
-      "email": "palomita@gmail.com",
-      "password": "$2a$10$ySfkuDLlL4TN4.OcbZgKIeFWULYMEDhkRnX6tn.XPGTUJ0Ic60ZdK",
-      "name": "Palomita",
+      "email": "atendente@burgerladies.com",
+      "password": "$2a$10$L3TEjzM6wR4cJIjUzmTEjOwnKsweMO2s6pAYrJvAAlRnzmO4Fg7l2",
+      "name": "Atendente",
+      "role": "Atendente",
+      "id": 26
+    },
+    {
+      "email": "adm@burgerladies.com",
+      "password": "$2a$10$Em/iq/yvMlFNqnh7tRzWPeVw4/fzT618HEJ9StbmDoY/RVFI9FVm2",
+      "name": "Adm",
       "role": "Administração",
-      "id": 23
+      "id": 27
+    },
+    {
+      "email": "cozinha@gmail.com",
+      "password": "$2a$10$PYVotvKemnciL1Bx/fCcjO1YBe1y4NP93dNa8DnOvn8HVRHGu0kku",
+      "name": "Cozinha",
+      "role": "Cozinha",
+      "id": 28
+    },
+    {
+      "email": "atendente@gmail.com",
+      "password": "$2a$10$L3TEjzM6wR4cJIjUzmTEjOwnKsweMO2s6pAYrJvAAlRnzmO4Fg7l2",
+      "name": "Atendente",
+      "role": "Atendente",
+      "id": 29
+    },
+    {
+      "email": "adm@gmail.com",
+      "password": "$2a$10$Em/iq/yvMlFNqnh7tRzWPeVw4/fzT618HEJ9StbmDoY/RVFI9FVm2",
+      "name": "Adm",
+      "role": "Administração",
+      "id": 30
     }
   ]
 }
